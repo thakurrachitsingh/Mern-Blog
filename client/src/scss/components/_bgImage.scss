@@ -1,0 +1,17 @@
+.bgImage {
+	width: 60%;
+	height: calc(100vh - 28rem);
+	background: url('/images/background.png');
+	background-size:cover;
+    margin-top: 15vh;
+	margin-left: 15vh;
+
+	@include responsive(mobile){
+	   width: 0;
+	   height: 0;
+	}
+	@include responsive(tablet){
+		width: 0;
+		height: 0;
+	 }
+}

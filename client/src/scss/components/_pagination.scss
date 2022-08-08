@@ -1,0 +1,37 @@
+.pagination{
+    display:flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    li:first-child{
+        border-left: 1px solid $blue;
+        border-top-left-radius: .6rem;
+        border-bottom-left-radius: .6rem;
+    }
+    li:last-child{
+        border-left: none;
+        border-top-right-radius: .6rem;
+        border-bottom-right-radius: .6rem;
+    }
+    li{
+        list-style-type: none;
+        display: block;
+        padding: 1rem;
+        border: 1px solid $blue;
+        border-left: none;
+        cursor: pointer;
+        a{
+            padding: 1rem;
+            color: $blue;
+            font-size: 1.4rem;
+        }
+    }
+    li:hover{
+        color: $white!important;
+    }
+}
+.active{
+    background: $blue;
+    a{
+        color: $white!important;
+    }
+}

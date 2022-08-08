@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
+//scss variables
+@import "scss/abstracts/variables";
+@import "scss/abstracts/mixin";
+@import "scss/abstracts/extends";
+
+@import "scss/base/reset";
+
+//scss utils
+@import "scss/utils/utils.scss";
+
+//scss components
+@import 'scss/components/bgImage';
+@import "scss/components/navbar";
+@import "scss/components/account";
+@import "scss/components/notFound.scss";
+@import "scss/components/dashboard";
+@import "scss/components/loader";
+@import "scss/components/sidebar";
+@import "scss/components/pagination";
+@import "scss/components/home";
+
+//scss layout
+@import "scss/layout/grid"; 
+
